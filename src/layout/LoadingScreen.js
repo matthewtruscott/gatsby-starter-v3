@@ -4,9 +4,11 @@ import { useState } from "react"
 
 const LoadingScreen = () => {
   const [hasLoaded, setHasLoaded] = useState(false)
+
   useEffect(() => {
     setTimeout(() => setHasLoaded(true), 1000)
   }, [])
+
   return (
     <AnimatePresence>
       {!hasLoaded && (
@@ -40,7 +42,7 @@ const Loader = () => {
         ease: "easeInOut",
       }}
     >
-      <div className="text-lg">Loading..</div>
+      <div className="text-lg">Loading...</div>
     </motion.div>
   )
 }

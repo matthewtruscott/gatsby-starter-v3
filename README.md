@@ -10,4 +10,4 @@
 - **Layout Component**
 - **gatsby-plugin-nprogress**
 - **gatsby-plugin-google-fonts**
-- **gatsby-plugin-react-svg**
+- **gatsby-plugin-react-svg?**
