@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+// @import "./mixins";
+
+//   @include laptop {
+//     font-size: 0.875rem;
+//   }
+
 body {
   font-family: "Poppins", "Helvetica Neue", "Segoe UI", "Helvetica",
     "sans-serif";

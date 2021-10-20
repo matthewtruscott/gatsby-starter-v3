@@ -1,0 +1,48 @@
+// > 1920px
+@mixin desktop() {
+  @media only screen and (max-width: 2520px) {
+    @content;
+  }
+}
+
+// 1600px - 1919px
+@mixin smdesktop() {
+  @media only screen and (max-width: 1919px) {
+    @content;
+  }
+}
+
+// 1366px - 1599px
+@mixin laptop() {
+  @media only screen and (max-width: 1599px) {
+    @content;
+  }
+}
+
+// 1024px - 1365px
+@mixin smlaptop() {
+  @media only screen and (max-width: 1365px) {
+    @content;
+  }
+}
+
+// 768px - 1023px
+@mixin tablet() {
+  @media only screen and (max-width: 1023px) {
+    @content;
+  }
+}
+
+// 480px - 767px
+@mixin smtablet() {
+  @media only screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+// < 479px
+@mixin mobile() {
+  @media only screen and (max-width: 639px) {
+    @content;
+  }
+}
