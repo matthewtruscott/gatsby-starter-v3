@@ -1,11 +1,9 @@
-import React, { useContext } from "react"
-import { useDispatch } from "react-redux"
-import { useSelector } from "react-redux"
-import { globalContext } from "../../provider"
-import { openNav, toggleNav } from "../../redux/features/navigation-slice"
+import React from "react"
+import { useDispatch, useSelector } from "react-redux"
+
+import { toggleNav } from "../../redux/features/navigation-slice"
 
 const Navigation = () => {
-  //   const { isNavOpen, setIsNavOpen } = useContext(globalContext)
   const { isOpen } = useSelector(state => state.navigation)
   const send = useDispatch()
   return (
