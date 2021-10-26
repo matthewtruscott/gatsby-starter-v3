@@ -7,7 +7,7 @@ const Layout = ({ children: page }) => {
   return (
     <>
       <Navigation />
-      <LoadingScreen />
+      {/* <LoadingScreen /> */}
       <PageContainer page={page} />
     </>
   )
