@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit"
-import { GetTodos, CreateTodo } from "./services"
+import { GetTodos, CreateTodo } from "./../services"
 
 export const todoSlice = createSlice({
   name: "todo",

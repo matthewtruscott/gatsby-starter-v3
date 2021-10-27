@@ -6,6 +6,8 @@
 
 - **SASS**
 - **Tailwind**
+- **Framer Motion**
+- **Redux Toolkit**
 - **Global Provider**
 - **Layout Component**
 - **gatsby-plugin-nprogress**

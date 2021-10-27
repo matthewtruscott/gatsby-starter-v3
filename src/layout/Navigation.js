@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import React from "react"
 import { useDispatch, useSelector } from "react-redux"
 
-import { toggleNav } from "../../redux/features/navigation-slice"
+import { toggleNav } from "../../redux/features/slices/navigation-slice"
 
 const Navigation = () => {
   const { isOpen } = useSelector(state => state.navigation)
@@ -28,7 +28,7 @@ const MenuButton = () => {
   const send = useDispatch()
   return (
     <div
-      className="fixed top-0 right-0 z-50 p-4 mt-5 mr-5 border shadow-md cursor-pointer rounded-3xl"
+      className="fixed top-0 right-0 z-50 px-3 py-3 mt-4 mr-4 border shadow-md cursor-pointer rounded-2xl"
       onClick={() => send(toggleNav())}
     >
       <div className="flex flex-col justify-between w-8 h-8 py-1.5">
