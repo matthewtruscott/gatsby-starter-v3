@@ -42,7 +42,7 @@
 
 // < 479px
 @mixin mobile() {
-  @media only screen and (max-width: 639px) {
+  @media only screen and (max-width: 479px) {
     @content;
   }
 }
